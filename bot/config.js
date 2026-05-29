@@ -6,7 +6,7 @@ module.exports = {
   JOBS_URL: "https://raw.githubusercontent.com/llffmmgg/kakaotalkBot/main/data/jobs.json",
 
   // 자동 푸시를 보낼 오픈채팅방 이름(메신저봇R의 room 값과 정확히 일치해야 함).
-  TARGET_ROOM: "CHANGE_ME 채용방",
+  TARGET_ROOM: "정보처리기사·SQLD·ADsP 합격방｜기출·CBT·질문 공부방",
 
   POLL_MS: 5 * 60 * 1000, // 자동 푸시 폴링 주기 (5분)
   MAX_RESULTS: 5,         // 검색 결과로 보여줄 최대 공고 수
