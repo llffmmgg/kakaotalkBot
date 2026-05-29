@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-05-29T00:00:00+09:00",
+  "jobs": [
+    {
+      "id": "saramin-00000000",
+      "title": "백엔드 개발자 (Python/Django)",
+      "company": "샘플컴퍼니",
+      "region": "서울 강남구",
+      "career": "신입",
+      "employment": "정규직",
+      "keywords": ["python", "django", "backend"],
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=00000000",
+      "deadline": "2026-12-31",
+      "posted_at": "2026-05-28"
+    }
+  ]
+}
