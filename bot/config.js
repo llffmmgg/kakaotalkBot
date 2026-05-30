@@ -9,8 +9,7 @@ module.exports = {
   TARGET_ROOM: "정보처리기사·SQLD·ADsP 합격방｜기출·CBT·질문 공부방",
 
   POLL_MS: 5 * 60 * 1000, // 자동 푸시 폴링 주기 (5분)
-  MAX_RESULTS: 5,         // 검색 결과로 보여줄 최대 공고 수
   MAX_PUSH: 5,            // 한 번에 자동 푸시할 최대 신규 공고 수
 
-  CMD_PREFIX: "!채용"     // 검색 명령 접두사
+  CMD_PREFIX: "!채용"     // 봇 호출 명령어
 };

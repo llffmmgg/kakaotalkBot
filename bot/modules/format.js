@@ -31,38 +31,15 @@ function joinJobs(items) {
   return blocks.join("\n\n");
 }
 
-function describeQuery(q) {
-  var parts = [];
-  if (q.keyword) { parts.push(q.keyword); }
-  if (q.region) { parts.push(q.region); }
-  if (q.career) { parts.push(q.career); }
-  if (q.employment) { parts.push(q.employment); }
-  return parts.length ? parts.join(" · ") : "전체";
-}
-
-function formatSearch(q, result) {
-  if (result.total === 0) {
-    return "조건에 맞는 공고가 없어요. 키워드를 바꿔보세요.";
+function formatList(items) {
+  if (!items || items.length === 0) {
+    return "등록된 채용공고가 아직 없어요.";
   }
-  var header = "🔎 \"" + describeQuery(q) + "\" 검색 결과 (총 " +
-    result.total + "건 중 " + result.items.length + "건)";
-  var body = joinJobs(result.items);
-  var msg = header + "\n\n" + body;
-  var rest = result.total - result.items.length;
-  if (rest > 0) {
-    msg += "\n\n… 외 " + rest + "건. 키워드를 좁혀보세요.";
-  }
-  return msg;
+  return "📋 채용공고 " + items.length + "건\n\n" + joinJobs(items);
 }
 
 function formatNew(items) {
   return "🆕 새 채용공고 " + items.length + "건\n\n" + joinJobs(items);
-}
-
-function formatHelp() {
-  return "사용법: !채용 [키워드] [지역:OO] [경력:신입|경력|무관] [형태:정규직|계약직]\n" +
-    "예) !채용 백엔드 지역:서울 경력:신입\n" +
-    "도움말: !채용도움";
 }
 
 function formatLoadError() {
@@ -71,8 +48,7 @@ function formatLoadError() {
 
 module.exports = {
   formatJob: formatJob,
-  formatSearch: formatSearch,
+  formatList: formatList,
   formatNew: formatNew,
-  formatHelp: formatHelp,
   formatLoadError: formatLoadError
 };
