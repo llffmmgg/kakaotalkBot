@@ -31,11 +31,18 @@ function joinJobs(items) {
   return blocks.join("\n\n");
 }
 
-function formatList(items) {
+function formatList(items, limit) {
   if (!items || items.length === 0) {
     return "등록된 채용공고가 아직 없어요.";
   }
-  return "📋 채용공고 " + items.length + "건\n\n" + joinJobs(items);
+  var total = items.length;
+  var shown = items;
+  var note = "";
+  if (limit && total > limit) {
+    shown = items.slice(0, limit);
+    note = "\n\n…외 " + (total - limit) + "건 더 있어요. (최신 " + limit + "건만 표시)";
+  }
+  return "📋 채용공고 " + total + "건\n\n" + joinJobs(shown) + note;
 }
 
 function formatNew(items) {

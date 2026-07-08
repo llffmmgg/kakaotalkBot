@@ -3,85 +3,28 @@
 // bot/index.js + modules/* 를 한 파일로 합친 버전.
 // 메신저봇R에서 새 봇을 만들고 이 전체를 붙여넣은 뒤, 아래 CONFIG만 수정하세요.
 //
-// 현재 동작: "!채용" 메시지에만 반응해서 아래 SAMPLE_JOBS(임시 샘플 공고)를 보여줍니다.
-//           사람인 API(jobs.json)가 준비되면 response()의 표시 부분만 교체하면 됩니다.
+// 동작:
+//   - "!채용" 입력 → data/jobs.json(raw URL)의 최신 공고를 최대 LIST_LIMIT건 응답.
+//   - 하루 2번(PUSH_HOURS: 오전 9시·오후 6시) 신규 공고만 최대 MAX_PUSH건 자동 푸시.
+//   데이터는 collector(GitHub Actions)가 만든 jobs.json만 읽는다. 봇은 크롤링하지 않는다.
 // =====================================================================
 
 // ---------------------- CONFIG (여기만 수정) ----------------------
 var CONFIG = {
-  // 본인 GitHub repo의 raw jobs.json URL (자동 푸시에서 사용. API 준비 후 사용).
+  // 본인 GitHub repo의 raw jobs.json URL.
   JOBS_URL: "https://raw.githubusercontent.com/llffmmgg/kakaotalkBot/main/data/jobs.json",
 
   // 자동 푸시할 오픈채팅방 이름 — 메신저봇R에 표시되는 room 이름과 정확히 일치해야 함.
   TARGET_ROOM: "정보처리기사·SQLD·ADsP 합격방｜기출·CBT·질문 공부방",
 
-  POLL_MS: 5 * 60 * 1000, // 자동 푸시 폴링 주기 (5분)
-  MAX_PUSH: 5,            // 한 번에 자동 푸시할 최대 신규 공고 수
+  POLL_MS: 10 * 60 * 1000, // 자동 푸시 확인 주기 (10분마다 '지금 보낼 시간인지' 검사)
+  PUSH_HOURS: [9, 18],     // 자동 푸시 시각(폰 시간, 24시간). 하루 2번: 오전 9시·오후 6시
+  MAX_PUSH: 10,            // 한 번에 자동 푸시할 최대 신규 공고 수
+  LIST_LIMIT: 15,          // "!채용" 응답에 보여줄 최대 공고 수(전체 건수는 함께 표시)
   CMD_PREFIX: "!채용"
 };
 
-// ---------------------- 임시 하드코딩 채용공고 ----------------------
-// 사람인 API 연동 전까지 "!채용" 응답으로 보여줄 공고.
-// 출처: 원티드(wanted.co.kr), 2026-05-30 기준 실제 공고. 링크는 시간이 지나면 만료될 수 있음.
-// API가 준비되면 이 배열 대신 jobs.json을 읽도록 response()를 바꾸면 됩니다.
-var SAMPLE_JOBS = [
-  {
-    id: "wanted-22942",
-    title: "프론트엔드 개발자",
-    company: "원티드랩",
-    region: "서울 송파구",
-    career: "경력 3년↑",
-    employment: "정규직",
-    url: "https://www.wanted.co.kr/wd/22942"
-  },
-  {
-    id: "wanted-72000",
-    title: "프론트엔드 개발자",
-    company: "한국투자증권",
-    region: "서울 영등포구",
-    career: "경력 5년↑",
-    employment: "정규직",
-    url: "https://www.wanted.co.kr/wd/72000"
-  },
-  {
-    id: "wanted-165809",
-    title: "프론트엔드 개발자 (React)",
-    company: "테스트뱅크",
-    region: "서울 강남구",
-    career: "경력",
-    employment: "정규직",
-    url: "https://www.wanted.co.kr/wd/165809"
-  },
-  {
-    id: "wanted-310787",
-    title: "백엔드 개발자 (Java/Spring)",
-    company: "휴넷",
-    region: "서울 구로구",
-    career: "경력",
-    employment: "정규직",
-    url: "https://www.wanted.co.kr/wd/310787"
-  },
-  {
-    id: "wanted-323",
-    title: "백엔드 개발자 (Node.js)",
-    company: "직방",
-    region: "서울 서초구",
-    career: "경력 3년↑",
-    employment: "정규직",
-    url: "https://www.wanted.co.kr/wd/323"
-  },
-  {
-    id: "wanted-350058",
-    title: "백엔드 개발자 (Node.js/NestJS)",
-    company: "퓨잇",
-    region: "서울 강남구",
-    career: "경력",
-    employment: "정규직",
-    url: "https://www.wanted.co.kr/wd/350058"
-  }
-];
-
-// ---------------------- api: jobs.json fetch (자동 푸시에서 사용) ----------------------
+// ---------------------- api: jobs.json fetch ----------------------
 function fetchJobs(url) {
   try {
     var conn = new java.net.URL(url).openConnection();
@@ -139,19 +82,27 @@ function joinJobs(items) {
   return blocks.join("\n\n");
 }
 
-function formatList(items) {
+function formatList(items, limit) {
   if (!items || items.length === 0) {
     return "등록된 채용공고가 아직 없어요.";
   }
-  return "📋 채용공고 " + items.length + "건\n\n" + joinJobs(items);
+  var total = items.length;
+  var shown = items;
+  var note = "";
+  if (limit && total > limit) {
+    shown = items.slice(0, limit);
+    note = "\n\n…외 " + (total - limit) + "건 더 있어요. (최신 " + limit + "건만 표시)";
+  }
+  return "📋 채용공고 " + total + "건\n\n" + joinJobs(shown) + note;
 }
 
 function formatNew(items) {
   return "🆕 새 채용공고 " + items.length + "건\n\n" + joinJobs(items);
 }
 
-// ---------------------- push (자동 알림) ----------------------
-var DB_KEY = "pushedIds";
+// ---------------------- push (자동 알림, 하루 2번) ----------------------
+var DB_KEY = "pushedIds";      // 이미 푸시한 공고 id 집합
+var SLOT_KEY = "lastPushSlot"; // 마지막으로 푸시를 완료한 시간대(중복 방지)
 
 function loadPushed() {
   try {
@@ -172,6 +123,29 @@ function toSet(arr) {
   return s;
 }
 
+// 지금이 PUSH_HOURS에 해당하는 푸시 시각이면 그 시간대 식별 문자열을, 아니면 null.
+function currentPushSlot() {
+  var d = new Date();
+  var h = d.getHours();
+  for (var i = 0; i < CONFIG.PUSH_HOURS.length; i++) {
+    if (h === CONFIG.PUSH_HOURS[i]) {
+      return d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate() + "-" + h;
+    }
+  }
+  return null;
+}
+
+function getDoneSlot() {
+  try {
+    var raw = DataBase.getDataBase(SLOT_KEY);
+    return raw ? String(raw) : "";
+  } catch (e) { return ""; }
+}
+
+function setDoneSlot(slot) {
+  try { DataBase.setDataBase(SLOT_KEY, slot); } catch (e) {}
+}
+
 function poll() {
   var data = fetchJobs(CONFIG.JOBS_URL);
   if (!data || !data.jobs) { return; }
@@ -188,6 +162,12 @@ function poll() {
     savePushed(currentIds);
     return;
   }
+
+  // 지금이 푸시 시각이 아니면 아무것도 보내지 않는다(신규는 다음 시각에 함께 나감).
+  var slot = currentPushSlot();
+  if (slot === null) { return; }
+  if (getDoneSlot() === slot) { return; } // 이번 시간대에 이미 보냄.
+
   var pushed = toSet(pushedArr);
 
   var fresh = [];
@@ -195,6 +175,7 @@ function poll() {
     if (jobs[j].id && !pushed[jobs[j].id]) { fresh.push(jobs[j]); }
   }
 
+  // pushed를 현재 존재하는 id로 프루닝(만료 공고 id 정리).
   var keep = {};
   for (var k = 0; k < currentIds.length; k++) {
     if (pushed[currentIds[k]]) { keep[currentIds[k]] = true; }
@@ -202,13 +183,16 @@ function poll() {
 
   if (fresh.length === 0) {
     savePushed(Object.keys(keep));
+    setDoneSlot(slot);
     return;
   }
 
   var toSend = fresh.slice(0, CONFIG.MAX_PUSH);
   var ok = Api.replyRoom(CONFIG.TARGET_ROOM, formatNew(toSend));
+  // 전송 성공 시에만 완료 처리 → 실패(방 못 찾음 등)면 다음 폴링에서 재시도.
   if (ok === true) {
     for (var m = 0; m < toSend.length; m++) { keep[toSend[m].id] = true; }
+    setDoneSlot(slot);
   }
   savePushed(Object.keys(keep));
 }
@@ -222,10 +206,9 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
     return;
   }
 
-  // TODO: 사람인 API 연동 후 SAMPLE_JOBS 대신 아래 주석처럼 jobs.json을 읽어서 사용.
-  //   var data = fetchJobs(CONFIG.JOBS_URL);
-  //   replier.reply(data ? formatList(data.jobs) : "공고를 불러오지 못했어요.");
-  replier.reply(formatList(SAMPLE_JOBS));
+  var data = fetchJobs(CONFIG.JOBS_URL);
+  replier.reply(data ? formatList(data.jobs, CONFIG.LIST_LIMIT)
+                     : "공고 데이터를 불러오지 못했어요. 잠시 후 다시 시도해주세요.");
 }
 
 // 자동 푸시 타이머 등록 (앱이 켜져 있는 동안만 동작).
