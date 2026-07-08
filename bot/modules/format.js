@@ -78,7 +78,8 @@ function formatListPaged(items, maxTotal, pageSize, title, hint) {
   var pages = [];
   for (var p = 0; p < pageCount; p++) {
     var slice = shown.slice(p * pageSize, (p + 1) * pageSize);
-    var header = head + " " + total + "건" + (pageCount > 1 ? " (" + (p + 1) + "/" + pageCount + ")" : "");
+    // 헤더 숫자는 '실제로 보여주는 개수'(최대 maxTotal). 전체는 하단에 "…외 N건"으로 안내.
+    var header = head + " " + shown.length + "건" + (pageCount > 1 ? " (" + (p + 1) + "/" + pageCount + ")" : "");
     var body = header + "\n\n" + joinJobs(slice);
     if (p === pageCount - 1) {
       if (total > shown.length) {
