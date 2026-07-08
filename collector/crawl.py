@@ -156,6 +156,12 @@ def main(argv=None):
 
     existing = load_existing(out_path)
     merged = dedup.merge(existing, new_jobs)
+
+    # dedup.merge는 posted_at 기준 정렬인데 점핏은 게시일이 없어 순서가 흐트러진다.
+    # 이번에 가져온 인기순(new_jobs 순서)대로 다시 정렬한다(사라진 공고는 뒤로).
+    rank = {job["id"]: i for i, job in enumerate(new_jobs)}
+    merged.sort(key=lambda j: rank.get(j.get("id"), len(rank)))
+
     write_jobs(out_path, merged)
 
     print(f"수집 완료: 수집 {len(raw)}건 → 필터 후 {len(new_jobs)}건 → "

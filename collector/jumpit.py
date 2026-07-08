@@ -60,7 +60,8 @@ def fetch_jobs(size=100, max_pages=20, timeout=15):
 
     collected = []
     for page in range(max_pages):
-        params = {"sort": "reg_dt", "highlight": "false", "page": page, "size": size}
+        # sort=popular: 점핏 인기순. "!채용"이 인기 공고 위주로 보이게 한다.
+        params = {"sort": "popular", "highlight": "false", "page": page, "size": size}
         resp = requests.get(BASE_URL, params=params,
                             headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
                             timeout=timeout)
