@@ -1,9 +1,9 @@
 name: Collect job postings
 
-# git scraping 패턴: cron으로 사람인 API를 수집해 data/jobs.json을 커밋.
+# git scraping 패턴: cron으로 Greenhouse/Lever 공개 API를 수집해 data/jobs.json을 커밋.
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 6시간마다 (UTC). 사람인 1일 500회 제한 내.
+    - cron: "0 */6 * * *"   # 6시간마다 (UTC).
   workflow_dispatch:         # 수동 실행 버튼
 
 permissions:
@@ -27,9 +27,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r collector/requirements.txt
 
-      - name: Collect (사람인 API → data/jobs.json)
-        env:
-          SARAMIN_ACCESS_KEY: ${{ secrets.SARAMIN_ACCESS_KEY }}
+      - name: Collect (Greenhouse/Lever 공개 API → data/jobs.json)
         run: python collector/crawl.py
 
       - name: Commit data/jobs.json if changed
