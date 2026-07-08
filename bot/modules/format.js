@@ -31,9 +31,29 @@ function joinJobs(items) {
   return blocks.join("\n\n");
 }
 
-function formatList(items, limit) {
+// career 문자열로 신입/경력 판별.
+// "신입"·"경력무관"은 신입 지원 가능, 그 외("3~5년" 등)는 경력.
+function isEntryLevel(job) {
+  var c = String(job.career || "");
+  return c === "신입" || c.indexOf("무관") >= 0;
+}
+
+// mode: "신입" | "경력" | 그 외(전체). 필터된 배열 반환.
+function filterByCareer(items, mode) {
+  if (!items) { return []; }
+  if (mode === "신입") {
+    return items.filter(function (j) { return isEntryLevel(j); });
+  }
+  if (mode === "경력") {
+    return items.filter(function (j) { return !isEntryLevel(j); });
+  }
+  return items;
+}
+
+function formatList(items, limit, title) {
+  var head = title || "📋 채용공고";
   if (!items || items.length === 0) {
-    return "등록된 채용공고가 아직 없어요.";
+    return head + "가 아직 없어요.";
   }
   var total = items.length;
   var shown = items;
@@ -42,7 +62,7 @@ function formatList(items, limit) {
     shown = items.slice(0, limit);
     note = "\n\n…외 " + (total - limit) + "건 더 있어요. (최신 " + limit + "건만 표시)";
   }
-  return "📋 채용공고 " + total + "건\n\n" + joinJobs(shown) + note;
+  return head + " " + total + "건\n\n" + joinJobs(shown) + note;
 }
 
 function formatNew(items) {
@@ -57,5 +77,6 @@ module.exports = {
   formatJob: formatJob,
   formatList: formatList,
   formatNew: formatNew,
-  formatLoadError: formatLoadError
+  formatLoadError: formatLoadError,
+  filterByCareer: filterByCareer
 };

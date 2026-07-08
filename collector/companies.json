@@ -1,12 +1,14 @@
 {
-  "_comment": "공고를 가져올 회사 목록. provider는 greenhouse 또는 lever. handle은 채용페이지 주소에 들어가는 회사 식별자다. 회사를 추가/삭제하려면 companies 배열만 편집하면 된다.",
+  "_comment": "수집 소스 목록. provider는 jumpit / greenhouse / lever. jumpit은 개발자 전용 플랫폼 전체를 가져오는 단일 소스라 handle이 없다. greenhouse/lever는 회사별 handle이 필요하다.",
   "_how_to_find_handle": {
     "greenhouse": "채용페이지가 boards.greenhouse.io/HANDLE 형태. API 확인: https://boards-api.greenhouse.io/v1/boards/{handle}/jobs",
     "lever": "채용페이지가 jobs.lever.co/HANDLE 형태. API 확인: https://api.lever.co/v0/postings/{handle}?mode=json"
   },
-  "_note": "jumpit은 개발자 전용 플랫폼 전체를 가져오는 단일 소스라 handle이 없다. greenhouse/lever는 회사별 handle이 필요하다. 아래는 2026-07 기준 공개 API가 실제로 동작하고 한국 개발 공고를 제공하는 소스들이다.",
+  "_note": "현재는 점핏만 사용한다. 점핏은 경력(신입/경력)·기술스택·마감일 데이터가 일관되고 개발자 전용이라 데이터 품질이 좋다. Greenhouse는 경력 정보가 없어 신입/경력 구분이 안 되고 정렬을 흐려서 비활성화함. 다시 켜려면 _disabled 항목을 companies로 옮기면 된다.",
   "companies": [
-    { "provider": "jumpit" },
+    { "provider": "jumpit" }
+  ],
+  "_disabled": [
     { "provider": "greenhouse", "handle": "coupang",    "name": "쿠팡" },
     { "provider": "greenhouse", "handle": "krafton",    "name": "크래프톤" },
     { "provider": "greenhouse", "handle": "riotgames",  "name": "라이엇게임즈" },

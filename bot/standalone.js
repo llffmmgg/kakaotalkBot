@@ -82,9 +82,28 @@ function joinJobs(items) {
   return blocks.join("\n\n");
 }
 
-function formatList(items, limit) {
+// career 문자열로 신입/경력 판별. "신입"·"경력무관"은 신입 지원 가능, 그 외는 경력.
+function isEntryLevel(job) {
+  var c = String(job.career || "");
+  return c === "신입" || c.indexOf("무관") >= 0;
+}
+
+// mode: "신입" | "경력" | 그 외(전체). 필터된 배열 반환.
+function filterByCareer(items, mode) {
+  if (!items) { return []; }
+  if (mode === "신입") {
+    return items.filter(function (j) { return isEntryLevel(j); });
+  }
+  if (mode === "경력") {
+    return items.filter(function (j) { return !isEntryLevel(j); });
+  }
+  return items;
+}
+
+function formatList(items, limit, title) {
+  var head = title || "📋 채용공고";
   if (!items || items.length === 0) {
-    return "등록된 채용공고가 아직 없어요.";
+    return head + "가 아직 없어요.";
   }
   var total = items.length;
   var shown = items;
@@ -93,7 +112,7 @@ function formatList(items, limit) {
     shown = items.slice(0, limit);
     note = "\n\n…외 " + (total - limit) + "건 더 있어요. (최신 " + limit + "건만 표시)";
   }
-  return "📋 채용공고 " + total + "건\n\n" + joinJobs(shown) + note;
+  return head + " " + total + "건\n\n" + joinJobs(shown) + note;
 }
 
 function formatNew(items) {
@@ -206,9 +225,23 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
     return;
   }
 
+  // "!채용" 뒤 인자로 신입/경력 필터. 예: "!채용 신입", "!채용경력".
+  var arg = text.substring(CONFIG.CMD_PREFIX.length);
+  var mode = "";
+  var title = "📋 채용공고";
+  if (arg.indexOf("신입") >= 0) {
+    mode = "신입"; title = "🌱 신입 채용공고";
+  } else if (arg.indexOf("경력") >= 0) {
+    mode = "경력"; title = "💼 경력 채용공고";
+  }
+
   var data = fetchJobs(CONFIG.JOBS_URL);
-  replier.reply(data ? formatList(data.jobs, CONFIG.LIST_LIMIT)
-                     : "공고 데이터를 불러오지 못했어요. 잠시 후 다시 시도해주세요.");
+  if (!data) {
+    replier.reply("공고 데이터를 불러오지 못했어요. 잠시 후 다시 시도해주세요.");
+    return;
+  }
+  var jobs = filterByCareer(data.jobs, mode);
+  replier.reply(formatList(jobs, CONFIG.LIST_LIMIT, title));
 }
 
 // 자동 푸시 타이머 등록 (앱이 켜져 있는 동안만 동작).

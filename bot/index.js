@@ -26,7 +26,22 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
     return;
   }
 
+  // "!채용" 뒤 인자로 신입/경력 필터. 예: "!채용 신입", "!채용경력".
+  var arg = text.substring(config.CMD_PREFIX.length);
+  var mode = "";
+  var title = "📋 채용공고";
+  if (arg.indexOf("신입") >= 0) {
+    mode = "신입"; title = "🌱 신입 채용공고";
+  } else if (arg.indexOf("경력") >= 0) {
+    mode = "경력"; title = "💼 경력 채용공고";
+  }
+
   // collector가 만든 jobs.json(raw URL)을 읽어 최신 공고를 응답한다.
   var data = api.fetchJobs(config.JOBS_URL);
-  replier.reply(data ? format.formatList(data.jobs, config.LIST_LIMIT) : format.formatLoadError());
+  if (!data) {
+    replier.reply(format.formatLoadError());
+    return;
+  }
+  var jobs = format.filterByCareer(data.jobs, mode);
+  replier.reply(format.formatList(jobs, config.LIST_LIMIT, title));
 }

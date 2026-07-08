@@ -1,1829 +1,25 @@
 {
-  "updated_at": "2026-07-08T12:23:33+0900",
+  "updated_at": "2026-07-08T13:19:23+0900",
   "jobs": [
     {
-      "id": "greenhouse-coupang-7957055",
-      "title": "[쿠팡] 카탈로그 데이터 분석 및 운영",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7957055",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-6655456",
-      "title": "[Coupang Pay]  Director, Back-End Engineering",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=6655456",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-8034909",
-      "title": "Engineering Manager, Client Development - New Fintech",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8034909",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-8009235",
-      "title": "Lead AI Design Technologist (Staff Product Designer)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8009235",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-7358442",
-      "title": "Manager, Backend Engineering (New Fintech Product)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7358442",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-8048144",
-      "title": "[쿠팡] 데이터 담당 PM 채용 (쿠팡이츠, 3년차 이상)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8048144",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-7089195",
-      "title": "Senior Staff, Back-end Engineering, Fintech Engineering (Coupang Pay)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7089195",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-7744318",
-      "title": "Senior Staff Back-end Engineer (New Fintech Product)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7744318",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-7975582",
-      "title": "Sr Backend Engineer (Eats Merchant)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7975582",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-7936538",
-      "title": "Sr. Staff Back-end Engineer (Coupang Pay)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7936538",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-7927990",
-      "title": "Sr. Staff, Technical Program Management (Marketplace Platform)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7927990",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-8045744",
-      "title": "Staff, Android Engineer(CX Engineering) - Coupang Play",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8045744",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-7374974",
-      "title": "Staff Back-end Engineer (New Fintech Product)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7374974",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-7061468",
-      "title": "Staff Data Analyst - Fintech",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7061468",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-8020145",
-      "title": "Staff security engineer (Fintech Information Security Engineering)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8020145",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-daangn-6617564003",
-      "title": "Software Engineer, Backend (인턴) - 서비스 코어 (Identity Service)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=6617564003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-daangn-7675338003",
-      "title": "Software Engineer, Backend - 로컬 잡스 (Lessons & Tutoring)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7675338003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-daangn-7668837003",
-      "title": "Software Engineer, Frontend - Cross Product Growth (Engagement Part)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7668837003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-daangn-7684999003",
-      "title": "Software Engineer, Frontend (인턴) - 로컬 잡스 (Lessons & Tutoring)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7684999003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-moloco-7711666003",
-      "title": "Expression of Interest(채용관심등록): Software Engineer - Korea",
-      "company": "몰로코",
-      "region": "Seoul, Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/moloco/jobs/7711666003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-moloco-5820201003",
-      "title": "Machine Learning Engineer (머신러닝 엔지니어)",
-      "company": "몰로코",
-      "region": "Seoul, Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/moloco/jobs/5820201003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-moloco-7635045003",
-      "title": "Machine Learning Engineer Intern (3-month internship)",
-      "company": "몰로코",
-      "region": "Seoul, Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/moloco/jobs/7635045003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-moloco-6245366003",
-      "title": "Machine Learning Engineer-Technical Research Personnel (머신러닝 엔지니어-전문연구요원)",
-      "company": "몰로코",
-      "region": "Seoul, Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/moloco/jobs/6245366003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-moloco-7720326003",
-      "title": "Senior Software Engineer - Ads Creative (시니어 소프트웨어 엔지니어)",
-      "company": "몰로코",
-      "region": "Seoul, Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/moloco/jobs/7720326003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-moloco-7720325003",
-      "title": "Software Engineer - Ads Experience  (소프트웨어 엔지니어)",
-      "company": "몰로코",
-      "region": "Seoul, Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/moloco/jobs/7720325003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-moloco-7793407003",
-      "title": "Software Engineer Intern (3-month internship)",
-      "company": "몰로코",
-      "region": "Seoul, Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/moloco/jobs/7793407003",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-sendbird-8611240002",
-      "title": "Security Engineer",
-      "company": "센드버드",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://sendbird.com/careers?gh_jid=8611240002",
-      "deadline": null,
-      "posted_at": "2026-07-07"
-    },
-    {
-      "id": "greenhouse-coupang-8007937",
-      "title": "[쿠팡] 가격 운영 및 개발 기획 PM (Pricing Excellence)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8007937",
-      "deadline": null,
-      "posted_at": "2026-07-06"
-    },
-    {
-      "id": "greenhouse-coupang-8040918",
-      "title": "Senior Flutter Engineer (Coupang Eats)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8040918",
-      "deadline": null,
-      "posted_at": "2026-07-06"
-    },
-    {
-      "id": "greenhouse-daangn-7791182003",
-      "title": "Design Engineer - 디자인 시스템",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7791182003",
-      "deadline": null,
-      "posted_at": "2026-07-06"
-    },
-    {
-      "id": "greenhouse-daangn-6043519003",
-      "title": "Security Engineer - 인프라 (보안, Detection & Response)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=6043519003",
-      "deadline": null,
-      "posted_at": "2026-07-05"
-    },
-    {
-      "id": "greenhouse-daangn-7762062003",
-      "title": "Software Engineer, Backend - 커뮤니티",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7762062003",
-      "deadline": null,
-      "posted_at": "2026-07-05"
-    },
-    {
-      "id": "greenhouse-daangn-6692173003",
-      "title": "Software Engineer, Frontend - 커머스",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=6692173003",
-      "deadline": null,
-      "posted_at": "2026-07-05"
-    },
-    {
-      "id": "greenhouse-coupang-7956824",
-      "title": "Staff Front-end Engineer (CX) — Coupang Play",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7956824",
-      "deadline": null,
-      "posted_at": "2026-07-04"
-    },
-    {
-      "id": "greenhouse-coupang-7971625",
-      "title": "Back-end Engineer (Marketplace)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7971625",
-      "deadline": null,
-      "posted_at": "2026-07-03"
-    },
-    {
-      "id": "greenhouse-coupang-8025544",
-      "title": "[쿠팡로지스틱스서비스] Water Flex 라스트마일 데이터 분석 및 운영 개선 담당자",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8025544",
-      "deadline": null,
-      "posted_at": "2026-07-03"
-    },
-    {
-      "id": "greenhouse-daangn-5046759003",
-      "title": "Software Engineer, Backend - 서비스 코어 (Identity Service)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=5046759003",
-      "deadline": null,
-      "posted_at": "2026-07-03"
-    },
-    {
-      "id": "greenhouse-coupang-8043062",
-      "title": "쿠팡파트너스 신규 파트너 개발 담당자 (경력)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8043062",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-coupang-8040797",
-      "title": "[쿠팡] CS 데이터 분석 담당자",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8040797",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-coupang-8040801",
-      "title": "Staff System Engineer (Global Infrastructure System Engineering)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8040801",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-krafton-8602124002",
-      "title": "[Infra Div.] Technical Solution Engineer (10년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8602124002",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-7507320003",
-      "title": "Data Analytics Engineer - 데이터 가치화",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7507320003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-4351200003",
-      "title": "DBA (Database Administrator) - 인프라 (DB)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=4351200003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-6045408003",
-      "title": "Lead Security Engineer - 인프라 (보안, Offensive Security)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=6045408003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-5004587003",
-      "title": "Network Engineer - 인프라 (네트워크, Cloud)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=5004587003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-7655325003",
-      "title": "Security Engineer - 인프라 (보안, AI Security)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7655325003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-6615071003",
-      "title": "Software Engineer, Android (인턴)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=6615071003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-6640363003",
-      "title": "Software Engineer, Backend - 광고",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=6640363003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-5296522003",
-      "title": "Software Engineer, Backend - 부동산",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=5296522003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-7659289003",
-      "title": "Software Engineer, Backend - 나의당근",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7659289003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-4300801003",
-      "title": "Software Engineer, Data - 데이터 가치화",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=4300801003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-7689088003",
-      "title": "Software Engineer, Frontend - 커뮤니티 (모임)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7689088003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-6647475003",
-      "title": "Software Engineer, Frontend - 로컬 비즈니스 (S&D)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=6647475003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-5282170003",
-      "title": "Software Engineer, iOS",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=5282170003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-5248527003",
-      "title": "Software Engineer, Machine Learning",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=5248527003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-6610455003",
-      "title": "Software Engineer, Machine Learning - 검색 (품질)",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=6610455003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-daangn-7498021003",
-      "title": "Software Engineer, Machine Learning - ML 인프라",
-      "company": "당근",
-      "region": "SEOUL",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://about.daangn.com?gh_jid=7498021003",
-      "deadline": null,
-      "posted_at": "2026-07-02"
-    },
-    {
-      "id": "greenhouse-coupang-8006956",
-      "title": "[쿠팡] CS QA - 상담 품질 평가 담당자 (계약직/재택 가능)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8006956",
-      "deadline": null,
-      "posted_at": "2026-07-01"
-    },
-    {
-      "id": "greenhouse-coupang-7994573",
-      "title": "Director, Data Security Engineering (Digital Trust)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7994573",
-      "deadline": null,
-      "posted_at": "2026-07-01"
-    },
-    {
-      "id": "greenhouse-coupang-8028001",
-      "title": "Security Analyst, Senior and Staff (CSOC - Cyber Security Operations Center)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8028001",
-      "deadline": null,
-      "posted_at": "2026-07-01"
-    },
-    {
-      "id": "greenhouse-krafton-8602142002",
-      "title": "[Infra Div.] Game DevOps Engineer for BGMI (7년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8602142002",
-      "deadline": null,
-      "posted_at": "2026-07-01"
-    },
-    {
-      "id": "greenhouse-krafton-8600522002",
-      "title": "[Infra Div.] Technical Solution Engineer (15년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8600522002",
-      "deadline": null,
-      "posted_at": "2026-07-01"
-    },
-    {
-      "id": "greenhouse-sendbird-8609714002",
-      "title": "QA Assistant (Contract)",
-      "company": "센드버드",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://sendbird.com/careers?gh_jid=8609714002",
-      "deadline": null,
-      "posted_at": "2026-07-01"
-    },
-    {
-      "id": "greenhouse-databricks-8574655002",
-      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-      "company": "데이터브릭스",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8574655002",
-      "deadline": null,
-      "posted_at": "2026-07-01"
-    },
-    {
-      "id": "greenhouse-databricks-8540455002",
-      "title": "Forward Deployed Engineer",
-      "company": "데이터브릭스",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8540455002",
-      "deadline": null,
-      "posted_at": "2026-07-01"
-    },
-    {
-      "id": "greenhouse-coupang-8029811",
-      "title": "Senior Staff, Data Scientist (Incrementality and Attribution)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8029811",
-      "deadline": null,
-      "posted_at": "2026-06-30"
-    },
-    {
-      "id": "greenhouse-coupang-7991999",
-      "title": "Sr Mobile Engineer (Eats iOS)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7991999",
-      "deadline": null,
-      "posted_at": "2026-06-30"
-    },
-    {
-      "id": "greenhouse-coupang-8027856",
-      "title": "[쿠팡] 쿠팡이츠 머천트 전략 기획 / 데이터 분석 담당자",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8027856",
-      "deadline": null,
-      "posted_at": "2026-06-26"
-    },
-    {
-      "id": "greenhouse-coupang-8027805",
-      "title": "Sr. Data Analyst (Post Purchase Experience Analytics)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8027805",
-      "deadline": null,
-      "posted_at": "2026-06-26"
-    },
-    {
-      "id": "greenhouse-coupang-7992225",
-      "title": "Staff QA Engineer [EE Excellence]",
-      "company": "쿠팡",
-      "region": "South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7992225",
-      "deadline": null,
-      "posted_at": "2026-06-26"
-    },
-    {
-      "id": "greenhouse-coupang-8018258",
-      "title": "Staff, Site Reliability Engineer (Tech Infra)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8018258",
-      "deadline": null,
-      "posted_at": "2026-06-26"
-    },
-    {
-      "id": "greenhouse-krafton-8565793002",
-      "title": "[AI Research Div.] Senior ML Infrastructure Engineer (8년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8565793002",
-      "deadline": null,
-      "posted_at": "2026-06-26"
-    },
-    {
-      "id": "greenhouse-krafton-8503653002",
-      "title": "[AI Transformation Dept.] Sr. AI Data Pipeline Specialist (7년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8503653002",
-      "deadline": null,
-      "posted_at": "2026-06-26"
-    },
-    {
-      "id": "greenhouse-krafton-8514459002",
-      "title": "[AI Transformation Dept.] Sr. AI Transformation Specialist (FDE) (7년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8514459002",
-      "deadline": null,
-      "posted_at": "2026-06-26"
-    },
-    {
-      "id": "greenhouse-coupang-8020073",
-      "title": "Senior Business Analyst (Pricing Data Analysis)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8020073",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-coupang-8027678",
-      "title": "Senior Staff, Back-end Engineer (Gateway Services)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8027678",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8524447002",
-      "title": "[AI Frontier Div.] AI Native Full Stack Engineer (7년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8524447002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8465450002",
-      "title": "[AI Frontier Div.] Product Owner (7년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8465450002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8125444002",
-      "title": "[AI Research Div.] AI Companion Team Internship (2년 이상 / 인턴)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8125444002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8339620002",
-      "title": "[AI Research Div.] Postdoctoral Researcher - LLMs (계약직)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8339620002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8360146002",
-      "title": "[AI Research Div.] Research Engineer - Foundation Models (2년 이상 / 계약직)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8360146002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8574562002",
-      "title": "[AI Research Div.] Research Engineer - Generative Agent for Game Worlds (2년 이상 / 인턴)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8574562002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8417764002",
-      "title": "[AI Research Div.] Research Engineer - Vision Language Action Game Agent (2년 이상 / 인턴)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8417764002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8460103002",
-      "title": "[AI Research Div.] [전문연구요원] Research Scientist - Foundation Model (2년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8460103002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8434572002",
-      "title": "[AI Research Div.] Research Scientist - Foundation Models (2년 이상 / 계약직)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8434572002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8524455002",
-      "title": "[AI Research Div.] [전문연구요원] Research Scientist - Generalist Agent for Game Environments (2년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8524455002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8401231002",
-      "title": "[AI Research Div.] Research Scientist Intern - 독자 AI 파운데이션 모델 (2년 이상 / 인턴)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8401231002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8401226002",
-      "title": "[AI Research Div.] Research Scientist Intern - Theory (2년 이상 / 인턴)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8401226002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8572432002",
-      "title": "[AI Transformation Dept.] AX Program Specialist (1년 이상 / 계약직)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8572432002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8524463002",
-      "title": "[Art Dept.] 모션캡처 촬영/데이터 담당 (주니어) (1년 이상 / 계약직)",
-      "company": "크래프톤",
-      "region": "Pangyo",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8524463002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8524459002",
-      "title": "[Art Dept.] 모션캡처 촬영/데이터 담당 (시니어) (5년 이상 / 계약직)",
-      "company": "크래프톤",
-      "region": "Pangyo",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8524459002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8574471002",
-      "title": "[HR Div.] Developer Relations Program Manager (3년 ~ 5년 / 계약직)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8574471002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8581493002",
-      "title": "[Infra Div.] Database Engineer (8년 이상)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8581493002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8503567002",
-      "title": "[Infra Div.] IT Engineer (경력 무관 / 계약직)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8503567002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-krafton-8460159002",
-      "title": "[Publishing Platform Div.] Sr. Mobile App Developer (7년 이상 / 계약직)",
-      "company": "크래프톤",
-      "region": "Seoul",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://job-boards.greenhouse.io/krafton/jobs/8460159002",
-      "deadline": null,
-      "posted_at": "2026-06-25"
-    },
-    {
-      "id": "greenhouse-coupang-7981336",
-      "title": "[쿠팡이츠서비스] 배달 협력사 운영 및 데이터 관리 담당자 (차장급) (Region Management)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7981336",
-      "deadline": null,
-      "posted_at": "2026-06-24"
-    },
-    {
-      "id": "greenhouse-coupang-7962498",
-      "title": "Senior Back-end Engineer (Eats Ads Engineering)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7962498",
-      "deadline": null,
-      "posted_at": "2026-06-24"
-    },
-    {
-      "id": "greenhouse-coupang-8027677",
-      "title": "Staff, Back-end Engineer (Gateway Services)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8027677",
-      "deadline": null,
-      "posted_at": "2026-06-24"
-    },
-    {
-      "id": "greenhouse-coupang-7988202",
-      "title": "Staff Security Engineer (SecDevOps Automation & Maturity)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7988202",
-      "deadline": null,
-      "posted_at": "2026-06-24"
-    },
-    {
-      "id": "greenhouse-coupang-8025155",
-      "title": "Staff, Back-end engineer(Global Operations Technology)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8025155",
-      "deadline": null,
-      "posted_at": "2026-06-23"
-    },
-    {
-      "id": "greenhouse-coupang-8020059",
-      "title": "Staff, Back-end Engineer (GOEX)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8020059",
-      "deadline": null,
-      "posted_at": "2026-06-23"
-    },
-    {
-      "id": "greenhouse-coupang-8020068",
-      "title": "Staff, Back-end engineer(Transportation Systems)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8020068",
-      "deadline": null,
-      "posted_at": "2026-06-23"
-    },
-    {
-      "id": "greenhouse-coupang-8025149",
-      "title": "Staff Database Engineer (Customer Success)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8025149",
-      "deadline": null,
-      "posted_at": "2026-06-23"
-    },
-    {
-      "id": "greenhouse-coupang-8011869",
-      "title": "[CPLB] Data Analyst (계약직: 1년)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8011869",
-      "deadline": null,
-      "posted_at": "2026-06-22"
-    },
-    {
-      "id": "greenhouse-riotgames-7454356",
-      "title": "Manager, Software Engineering, Publishing Engagement - Publishing Platform",
-      "company": "라이엇게임즈",
-      "region": "Seoul, Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.riotgames.com/en/work-with-us/job/7454356?gh_jid=7454356",
-      "deadline": null,
-      "posted_at": "2026-06-18"
-    },
-    {
-      "id": "greenhouse-coupang-7813854",
-      "title": "Sr. Security Engineer (Detection Ops-Email)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7813854",
-      "deadline": null,
-      "posted_at": "2026-06-17"
-    },
-    {
-      "id": "greenhouse-coupang-8012236",
-      "title": "Sr. Staff, Machine Learning Engineer (Ads Engineering)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8012236",
-      "deadline": null,
-      "posted_at": "2026-06-17"
-    },
-    {
-      "id": "greenhouse-coupang-8007107",
-      "title": "[쿠팡로지스틱스서비스] 캠프 부동산 개발 및 임대차 계약 담당자",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8007107",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7525397",
-      "title": "[쿠팡로지스틱스서비스] 물류 사업장 물류 장비 구매 및 개발 담당자",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7525397",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7856487",
-      "title": "[CLS] First & Middlemile Data Scientist (Operation Research)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7856487",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-8002103",
-      "title": "[Coupang] Principal Legal Counsel (AI & Product Legal)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8002103",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7975485",
-      "title": "[CPLB] Senior, Data Engineer (Compliance Ops-Data)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7975485",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7927869",
-      "title": "Director, Logistics Security & Loss Prevention",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7927869",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7994867",
-      "title": "[쿠팡] Eats 세일즈 전략 & 데이터 분석 매니저",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7994867",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-6810667",
-      "title": "Global Operations Technology(GOT) 개발자 집중 채용",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=6810667",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7486107",
-      "title": "[쿠팡풀필먼트서비스] HVAC (냉난방공조) 설계 엔지니어",
-      "company": "쿠팡",
-      "region": "South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7486107",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7975742",
-      "title": "[쿠팡] 사내변호사(ICT부문/Data, Privacy & AI Legal팀)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7975742",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7984359",
-      "title": "전기통신사업법(IT/보안) 모니터링 담당자",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7984359",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7971603",
-      "title": "Machine Learning Engineer (Eats Search and Discovery)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7971603",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7964991",
-      "title": "Manager, Back-end Engineering (Eats Delivery)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7964991",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-6137112",
-      "title": "Manager, Back-end Engineering (Global Operations Technology)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=6137112",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7896542",
-      "title": "Senior Back-end Engineer (Coupang Ads Engineering)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7896542",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7919225",
-      "title": "Senior Data Analyst (Catalog)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7919225",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7962502",
-      "title": "Senior Data Analyst (Delivery Experience Analytics)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7962502",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7975547",
-      "title": "Senior, Machine Learning Engineer (Eats Search and Discovery)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7975547",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7948448",
-      "title": "Senior Security Engineer (Cloud Infrastructure Security)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7948448",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-5848138",
-      "title": "Senior Staff, Back-end Engineer (Global Operations Technology)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=5848138",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7988197",
-      "title": "쿠팡이츠 Sr Backend Engineer (CXM)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7988197",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7994883",
-      "title": "Sr. Staff - AI Data Center Architect",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7994883",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7358575",
-      "title": "Sr~Staff Data Analyst (Coupang Eats)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7358575",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-5868936",
-      "title": "Sr. Staff Front-end Engineer  (Global Operations Technology)",
-      "company": "쿠팡",
-      "region": "South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=5868936",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7992094",
-      "title": "Sr. Staff Observability Engineer (GPU Cloud & Telemetry Platform)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7992094",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-6089726",
-      "title": "Staff Android Engineer (NEW Fintech Product)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=6089726",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7902369",
-      "title": "Staff, Back-end Engineer (Advertiser Platform)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7902369",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7994958",
-      "title": "Staff Back-end Engineer (Eats Customer)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7994958",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7230867",
-      "title": "Staff, Back-end Engineer (Global Operations Technology)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7230867",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7902982",
-      "title": "Staff, Back-end Engineer (Marketplace Platform)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7902982",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7919211",
-      "title": "Staff Backend Engineer (Streaming & AI Infrastructure)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea; z-Test & Templates Only",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7919211",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7896826",
-      "title": "Staff Data Analyst (Coupang Logistics Service)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7896826",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-6412588",
-      "title": "Staff, Front-end Engineer (Global Operations Technology)",
-      "company": "쿠팡",
-      "region": "South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=6412588",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7896545",
-      "title": "Staff Machine Learning Engineer (Ads Relevance)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7896545",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7956912",
-      "title": "Staff Machine Learning Engineer (Coupang Eats)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7956912",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7927865",
-      "title": "Staff, Machine Learning Engineer - Coupang Play",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7927865",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7938018",
-      "title": "Staff Security Engineer (Data Security Engineering)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7938018",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7984351",
-      "title": "Staff Security Engineer (Penetration Tester)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7984351",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7956945",
-      "title": "Staff, Security Software Engineer - Coupang Play",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7956945",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7920145",
-      "title": "Staff~Sr.Staff Data Scientist (Coupang Eats)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7920145",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-coupang-7849625",
-      "title": "Staff UCC Application Engineer (Operations, Governance, AI-enabled productivity)",
-      "company": "쿠팡",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7849625",
-      "deadline": null,
-      "posted_at": "2026-06-16"
-    },
-    {
-      "id": "greenhouse-sendbird-8287120002",
-      "title": "Machine Learning Engineer",
-      "company": "센드버드",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://sendbird.com/careers?gh_jid=8287120002",
-      "deadline": null,
-      "posted_at": "2026-06-09"
-    },
-    {
-      "id": "greenhouse-sendbird-8276676002",
-      "title": "AI Agent Engineer, Intern",
-      "company": "센드버드",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://sendbird.com/careers?gh_jid=8276676002",
-      "deadline": null,
-      "posted_at": "2026-06-03"
-    },
-    {
-      "id": "greenhouse-sendbird-8487800002",
-      "title": "Enterprise Security Engineer",
-      "company": "센드버드",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://sendbird.com/careers?gh_jid=8487800002",
-      "deadline": null,
-      "posted_at": "2026-06-03"
-    },
-    {
-      "id": "greenhouse-sendbird-8395379002",
-      "title": "Software Engineer, AI Agent",
-      "company": "센드버드",
-      "region": "Seoul, South Korea",
-      "career": "",
-      "employment": "",
-      "keywords": [],
-      "url": "https://sendbird.com/careers?gh_jid=8395379002",
-      "deadline": null,
-      "posted_at": "2026-06-03"
+      "id": "jumpit-54405266",
+      "title": "AI 기반 헬스케어 엔지니어",
+      "company": "에이온비주식회사",
+      "region": "서울 성동구",
+      "career": "5~8년",
+      "employment": "정규직",
+      "keywords": [
+        "git",
+        "java",
+        "node.js",
+        "python",
+        "react",
+        "aws",
+        "gcp"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54405266",
+      "deadline": "2026-08-06",
+      "posted_at": null
     },
     {
       "id": "jumpit-54405528",
@@ -1845,26 +41,6 @@
         "aws"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54405528",
-      "deadline": "2026-08-06",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54405266",
-      "title": "AI 기반 헬스케어 엔지니어",
-      "company": "에이온비주식회사",
-      "region": "서울 성동구",
-      "career": "5~8년",
-      "employment": "정규직",
-      "keywords": [
-        "git",
-        "java",
-        "node.js",
-        "python",
-        "react",
-        "aws",
-        "gcp"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54405266",
       "deadline": "2026-08-06",
       "posted_at": null
     },
@@ -1918,6 +94,22 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54378994",
+      "title": "펌웨어/플랫폼 개발(경력10~15년)",
+      "company": "아세아텍",
+      "region": "대구 달성군",
+      "career": "10~15년",
+      "employment": "정규직",
+      "keywords": [
+        "c",
+        "hw",
+        "fw"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54378994",
+      "deadline": "2026-08-06",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54396634",
       "title": "Robot Controls Engineer",
       "company": "셀틱스테크놀로지",
@@ -1957,18 +149,18 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54378994",
-      "title": "펌웨어/플랫폼 개발(경력10~15년)",
+      "id": "jumpit-54379008",
+      "title": "펌웨어/플랫폼 개발(경력16~20년)",
       "company": "아세아텍",
       "region": "대구 달성군",
-      "career": "10~15년",
+      "career": "16~20년",
       "employment": "정규직",
       "keywords": [
         "c",
         "hw",
         "fw"
       ],
-      "url": "https://jumpit.saramin.co.kr/position/54378994",
+      "url": "https://jumpit.saramin.co.kr/position/54379008",
       "deadline": "2026-08-06",
       "posted_at": null
     },
@@ -1988,36 +180,18 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54379008",
-      "title": "펌웨어/플랫폼 개발(경력16~20년)",
+      "id": "jumpit-54378837",
+      "title": "펌웨어/플랫폼 개발(경력3~9년)",
       "company": "아세아텍",
       "region": "대구 달성군",
-      "career": "16~20년",
+      "career": "3~9년",
       "employment": "정규직",
       "keywords": [
         "c",
         "hw",
         "fw"
       ],
-      "url": "https://jumpit.saramin.co.kr/position/54379008",
-      "deadline": "2026-08-06",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54360488",
-      "title": "프론트엔드 개발자",
-      "company": "패스트레인",
-      "region": "서울 강남구",
-      "career": "7~13년",
-      "employment": "정규직",
-      "keywords": [
-        "confluence",
-        "github",
-        "jira",
-        "python",
-        "react"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54360488",
+      "url": "https://jumpit.saramin.co.kr/position/54378837",
       "deadline": "2026-08-06",
       "posted_at": null
     },
@@ -2060,69 +234,20 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54378837",
-      "title": "펌웨어/플랫폼 개발(경력3~9년)",
-      "company": "아세아텍",
-      "region": "대구 달성군",
-      "career": "3~9년",
+      "id": "jumpit-54360488",
+      "title": "프론트엔드 개발자",
+      "company": "패스트레인",
+      "region": "서울 강남구",
+      "career": "7~13년",
       "employment": "정규직",
       "keywords": [
-        "c",
-        "hw",
-        "fw"
+        "confluence",
+        "github",
+        "jira",
+        "python",
+        "react"
       ],
-      "url": "https://jumpit.saramin.co.kr/position/54378837",
-      "deadline": "2026-08-06",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54377793",
-      "title": "S/W 소프트웨어 설계(경력)",
-      "company": "씨앤지 마이크로웨이브",
-      "region": "대전",
-      "career": "1~15년",
-      "employment": "정규직",
-      "keywords": [
-        "linux",
-        "sw",
-        "mcu",
-        "arm"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54377793",
-      "deadline": "2026-08-06",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54377744",
-      "title": "S/W 소프트웨어 개발 - 경력",
-      "company": "씨앤지 마이크로웨이브",
-      "region": "대전 유성구",
-      "career": "3~20년",
-      "employment": "정규직",
-      "keywords": [
-        "c#",
-        "wpf",
-        "sw",
-        "vb.net"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54377744",
-      "deadline": "2026-08-06",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54377767",
-      "title": "S/W 소프트웨어 설계(신입)",
-      "company": "씨앤지 마이크로웨이브",
-      "region": "대전",
-      "career": "신입",
-      "employment": "정규직",
-      "keywords": [
-        "linux",
-        "sw",
-        "mcu",
-        "arm"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54377767",
+      "url": "https://jumpit.saramin.co.kr/position/54360488",
       "deadline": "2026-08-06",
       "posted_at": null
     },
@@ -2159,6 +284,57 @@
         "ai/인공지능"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54363106",
+      "deadline": "2026-08-06",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54377767",
+      "title": "S/W 소프트웨어 설계(신입)",
+      "company": "씨앤지 마이크로웨이브",
+      "region": "대전",
+      "career": "신입",
+      "employment": "정규직",
+      "keywords": [
+        "linux",
+        "sw",
+        "mcu",
+        "arm"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54377767",
+      "deadline": "2026-08-06",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54377793",
+      "title": "S/W 소프트웨어 설계(경력)",
+      "company": "씨앤지 마이크로웨이브",
+      "region": "대전",
+      "career": "1~15년",
+      "employment": "정규직",
+      "keywords": [
+        "linux",
+        "sw",
+        "mcu",
+        "arm"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54377793",
+      "deadline": "2026-08-06",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54377744",
+      "title": "S/W 소프트웨어 개발 - 경력",
+      "company": "씨앤지 마이크로웨이브",
+      "region": "대전 유성구",
+      "career": "3~20년",
+      "employment": "정규직",
+      "keywords": [
+        "c#",
+        "wpf",
+        "sw",
+        "vb.net"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54377744",
       "deadline": "2026-08-06",
       "posted_at": null
     },
@@ -2386,25 +562,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54332985",
-      "title": "Flutter 앱 개발자 [경력 1~8년]",
-      "company": "제네시스네스트",
-      "region": "경기 용인시 수지구",
-      "career": "1~8년",
-      "employment": "정규직",
-      "keywords": [
-        "flutter",
-        "java",
-        "kotlin",
-        "objective-c",
-        "swift",
-        "xcode"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54332985",
-      "deadline": "2026-07-30",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54332970",
       "title": "Java 백엔드 개발자 [경력 3~8년]",
       "company": "제네시스네스트",
@@ -2424,6 +581,25 @@
         "blockchain"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54332970",
+      "deadline": "2026-07-30",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54332985",
+      "title": "Flutter 앱 개발자 [경력 1~8년]",
+      "company": "제네시스네스트",
+      "region": "경기 용인시 수지구",
+      "career": "1~8년",
+      "employment": "정규직",
+      "keywords": [
+        "flutter",
+        "java",
+        "kotlin",
+        "objective-c",
+        "swift",
+        "xcode"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54332985",
       "deadline": "2026-07-30",
       "posted_at": null
     },
@@ -2866,6 +1042,25 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54375579",
+      "title": "정보보호 담당자 경력 채용",
+      "company": "엘리스그룹",
+      "region": "서울 강남구",
+      "career": "2~20년",
+      "employment": "정규직",
+      "keywords": [
+        "vpn",
+        "machinelearning",
+        "ai/인공지능",
+        "isms",
+        "network",
+        "ips"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54375579",
+      "deadline": "2026-08-05",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54360335",
       "title": "R&BD사업본부 피지컬 AI 데이터 처리 연구개발자",
       "company": "캠틱종합기술원",
@@ -2907,48 +1102,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54375579",
-      "title": "정보보호 담당자 경력 채용",
-      "company": "엘리스그룹",
-      "region": "서울 강남구",
-      "career": "2~20년",
-      "employment": "정규직",
-      "keywords": [
-        "vpn",
-        "machinelearning",
-        "ai/인공지능",
-        "isms",
-        "network",
-        "ips"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54375579",
-      "deadline": "2026-08-05",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54360350",
-      "title": "R&BD사업본부 피지컬 AI 기반 디지털 트윈 연구개발자",
-      "company": "캠틱종합기술원",
-      "region": "전북 전주시",
-      "career": "2~11년",
-      "employment": "정규직",
-      "keywords": [
-        "c++",
-        "python",
-        "unity",
-        "unreal engine",
-        "tcp/ip",
-        "3d volume rendering",
-        "visual c++",
-        "ros",
-        "modulus",
-        "plc"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54360350",
-      "deadline": "2026-08-05",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54382823",
       "title": "Unity 클라이언트 시니어 개발자",
       "company": "WATA Inc.",
@@ -2983,6 +1136,29 @@
         "ethernet"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54348797",
+      "deadline": "2026-08-05",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54360350",
+      "title": "R&BD사업본부 피지컬 AI 기반 디지털 트윈 연구개발자",
+      "company": "캠틱종합기술원",
+      "region": "전북 전주시",
+      "career": "2~11년",
+      "employment": "정규직",
+      "keywords": [
+        "c++",
+        "python",
+        "unity",
+        "unreal engine",
+        "tcp/ip",
+        "3d volume rendering",
+        "visual c++",
+        "ros",
+        "modulus",
+        "plc"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54360350",
       "deadline": "2026-08-05",
       "posted_at": null
     },
@@ -3420,6 +1596,24 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54365844",
+      "title": "Senior AI Engineer(E2E 자율주행)",
+      "company": "뷰런테크놀로지",
+      "region": "서울 서초구",
+      "career": "4~10년",
+      "employment": "정규직",
+      "keywords": [
+        "c",
+        "c++",
+        "python",
+        "pytorch",
+        "rust"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54365844",
+      "deadline": "2026-08-04",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54365078",
       "title": "자율주행 로봇(자동차) 제어 및 SW 개발자",
       "company": "베스텔라랩",
@@ -3439,24 +1633,6 @@
         "ros"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54365078",
-      "deadline": "2026-08-04",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54365844",
-      "title": "Senior AI Engineer(E2E 자율주행)",
-      "company": "뷰런테크놀로지",
-      "region": "서울 서초구",
-      "career": "4~10년",
-      "employment": "정규직",
-      "keywords": [
-        "c",
-        "c++",
-        "python",
-        "pytorch",
-        "rust"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54365844",
       "deadline": "2026-08-04",
       "posted_at": null
     },
@@ -4284,6 +2460,21 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54365026",
+      "title": "R&D부문 글로벌개발팀 펌웨어 담당자 채용",
+      "company": "채비",
+      "region": "서울 서초구",
+      "career": "5~15년",
+      "employment": "정규직",
+      "keywords": [
+        "fw",
+        "arm"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54365026",
+      "deadline": "2026-08-02",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54365144",
       "title": "UI 개발(선행팀)",
       "company": "채비",
@@ -4302,17 +2493,20 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54365026",
-      "title": "R&D부문 글로벌개발팀 펌웨어 담당자 채용",
-      "company": "채비",
-      "region": "서울 서초구",
-      "career": "5~15년",
+      "id": "jumpit-54345907",
+      "title": "IT/AI부문(전문연구요원포함)경력(4↑)",
+      "company": "연합인포맥스",
+      "region": "서울 종로구",
+      "career": "4~6년",
       "employment": "정규직",
       "keywords": [
-        "fw",
-        "arm"
+        "azure devops",
+        "python",
+        "aws",
+        "gcp",
+        "azure"
       ],
-      "url": "https://jumpit.saramin.co.kr/position/54365026",
+      "url": "https://jumpit.saramin.co.kr/position/54345907",
       "deadline": "2026-08-02",
       "posted_at": null
     },
@@ -4330,24 +2524,6 @@
         "sw"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54365120",
-      "deadline": "2026-08-02",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54345907",
-      "title": "IT/AI부문(전문연구요원포함)경력(4↑)",
-      "company": "연합인포맥스",
-      "region": "서울 종로구",
-      "career": "4~6년",
-      "employment": "정규직",
-      "keywords": [
-        "azure devops",
-        "python",
-        "aws",
-        "gcp",
-        "azure"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54345907",
       "deadline": "2026-08-02",
       "posted_at": null
     },
@@ -8239,21 +6415,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54289618",
-      "title": "코덱 소프트웨어 엔지니어 (경력)",
-      "company": "블루닷",
-      "region": "서울 강남구",
-      "career": "3~12년",
-      "employment": "정규직",
-      "keywords": [
-        "embedded",
-        "fpga"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54289618",
-      "deadline": "2026-07-26",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54289572",
       "title": "자사 HR Platform 서비스 개발팀장",
       "company": "아인잡",
@@ -8293,6 +6454,21 @@
         "notion"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54289559",
+      "deadline": "2026-07-26",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54289618",
+      "title": "코덱 소프트웨어 엔지니어 (경력)",
+      "company": "블루닷",
+      "region": "서울 강남구",
+      "career": "3~12년",
+      "employment": "정규직",
+      "keywords": [
+        "embedded",
+        "fpga"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54289618",
       "deadline": "2026-07-26",
       "posted_at": null
     },
@@ -8554,29 +6730,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54265514",
-      "title": "게임 개발자(1~3년)",
-      "company": "에스피코리아",
-      "region": "서울 강서구",
-      "career": "1~3년",
-      "employment": "정규직",
-      "keywords": [
-        "java",
-        "mariadb",
-        "mysql",
-        "nginx",
-        "node.js",
-        "swift",
-        "unity",
-        "unreal engine",
-        "aws",
-        "azure"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54265514",
-      "deadline": "2026-07-25",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54268001",
       "title": "[C/C++, C#] 검사장비 고속 제어 및 비전 SW 개발자 채용 (경력)",
       "company": "엔클로니",
@@ -8688,6 +6841,29 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54265514",
+      "title": "게임 개발자(1~3년)",
+      "company": "에스피코리아",
+      "region": "서울 강서구",
+      "career": "1~3년",
+      "employment": "정규직",
+      "keywords": [
+        "java",
+        "mariadb",
+        "mysql",
+        "nginx",
+        "node.js",
+        "swift",
+        "unity",
+        "unreal engine",
+        "aws",
+        "azure"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54265514",
+      "deadline": "2026-07-25",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54278618",
       "title": "AI 연구 개발 엔지니어 (신입 무관)",
       "company": "크레셈",
@@ -8708,21 +6884,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54278597",
-      "title": "제어기술팀 SW개발 경력 채용",
-      "company": "크레셈",
-      "region": "인천 연수구",
-      "career": "3~10년",
-      "employment": "정규직",
-      "keywords": [
-        "c#",
-        "visual studio"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54278597",
-      "deadline": "2026-07-25",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54278570",
       "title": "제어기술팀 SW개발 신입 채용",
       "company": "크레셈",
@@ -8734,6 +6895,21 @@
         "visual studio"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54278570",
+      "deadline": "2026-07-25",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54278597",
+      "title": "제어기술팀 SW개발 경력 채용",
+      "company": "크레셈",
+      "region": "인천 연수구",
+      "career": "3~10년",
+      "employment": "정규직",
+      "keywords": [
+        "c#",
+        "visual studio"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54278597",
       "deadline": "2026-07-25",
       "posted_at": null
     },
@@ -9857,36 +8033,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54243629",
-      "title": "H/W 회로 설계 차장급 채용",
-      "company": "크럭셀",
-      "region": "대전 유성구",
-      "career": "13~15년",
-      "employment": "정규직",
-      "keywords": [
-        "hw",
-        "fpga"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54243629",
-      "deadline": "2026-07-22",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54243577",
-      "title": "H/W 회로 설계 주임급 채용",
-      "company": "크럭셀",
-      "region": "대전 유성구",
-      "career": "1~3년",
-      "employment": "정규직",
-      "keywords": [
-        "hw",
-        "fpga"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54243577",
-      "deadline": "2026-07-22",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54243792",
       "title": "HW 회로설계 엔지니어 대리급 채용",
       "company": "크럭셀",
@@ -9913,6 +8059,36 @@
         "fpga"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54243614",
+      "deadline": "2026-07-22",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54243577",
+      "title": "H/W 회로 설계 주임급 채용",
+      "company": "크럭셀",
+      "region": "대전 유성구",
+      "career": "1~3년",
+      "employment": "정규직",
+      "keywords": [
+        "hw",
+        "fpga"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54243577",
+      "deadline": "2026-07-22",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54243629",
+      "title": "H/W 회로 설계 차장급 채용",
+      "company": "크럭셀",
+      "region": "대전 유성구",
+      "career": "13~15년",
+      "employment": "정규직",
+      "keywords": [
+        "hw",
+        "fpga"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54243629",
       "deadline": "2026-07-22",
       "posted_at": null
     },
@@ -9992,6 +8168,21 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54243721",
+      "title": "FPGA 코딩/ 설계 대리급 채용",
+      "company": "크럭셀",
+      "region": "대전 유성구",
+      "career": "4~6년",
+      "employment": "정규직",
+      "keywords": [
+        "hw",
+        "fpga"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54243721",
+      "deadline": "2026-07-22",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54247719",
       "title": "애플리케이션/플랫폼 아키텍트 채용",
       "company": "넥서스커뮤니티",
@@ -10011,21 +8202,6 @@
         "msa"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54247719",
-      "deadline": "2026-07-22",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54243721",
-      "title": "FPGA 코딩/ 설계 대리급 채용",
-      "company": "크럭셀",
-      "region": "대전 유성구",
-      "career": "4~6년",
-      "employment": "정규직",
-      "keywords": [
-        "hw",
-        "fpga"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54243721",
       "deadline": "2026-07-22",
       "posted_at": null
     },
@@ -10505,18 +8681,18 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54228891",
-      "title": "보안솔루션 SIEM, SOAR 전문가 (경력)",
-      "company": "메타넷엑스",
-      "region": "서울 종로구",
-      "career": "5~15년",
+      "id": "jumpit-54227810",
+      "title": "AI 서비스 PM (오산)",
+      "company": "아이제라",
+      "region": "경기 오산시",
+      "career": "3~10년",
       "employment": "정규직",
       "keywords": [
-        "aws waf",
-        "aws",
-        "ips"
+        "python",
+        "ai/인공지능",
+        "sw"
       ],
-      "url": "https://jumpit.saramin.co.kr/position/54228891",
+      "url": "https://jumpit.saramin.co.kr/position/54227810",
       "deadline": "2026-07-20",
       "posted_at": null
     },
@@ -10540,35 +8716,18 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54227810",
-      "title": "AI 서비스 PM (오산)",
-      "company": "아이제라",
-      "region": "경기 오산시",
-      "career": "3~10년",
+      "id": "jumpit-54228891",
+      "title": "보안솔루션 SIEM, SOAR 전문가 (경력)",
+      "company": "메타넷엑스",
+      "region": "서울 종로구",
+      "career": "5~15년",
       "employment": "정규직",
       "keywords": [
-        "python",
-        "ai/인공지능",
-        "sw"
+        "aws waf",
+        "aws",
+        "ips"
       ],
-      "url": "https://jumpit.saramin.co.kr/position/54227810",
-      "deadline": "2026-07-20",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54227941",
-      "title": "이커머스 솔루션 에이전트 엔지니어",
-      "company": "샐러드랩",
-      "region": "서울 강남구",
-      "career": "3~8년",
-      "employment": "정규직",
-      "keywords": [
-        "docker",
-        "git",
-        "python",
-        "aws"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54227941",
+      "url": "https://jumpit.saramin.co.kr/position/54228891",
       "deadline": "2026-07-20",
       "posted_at": null
     },
@@ -10588,20 +8747,19 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54228488",
-      "title": "Flutter 앱개발자",
-      "company": "테일크루",
-      "region": "경기 성남시 분당구",
-      "career": "3~10년",
+      "id": "jumpit-54227941",
+      "title": "이커머스 솔루션 에이전트 엔지니어",
+      "company": "샐러드랩",
+      "region": "서울 강남구",
+      "career": "3~8년",
       "employment": "정규직",
       "keywords": [
-        "css 3",
-        "flutter",
-        "javascript",
-        "react native",
-        "typescript"
+        "docker",
+        "git",
+        "python",
+        "aws"
       ],
-      "url": "https://jumpit.saramin.co.kr/position/54228488",
+      "url": "https://jumpit.saramin.co.kr/position/54227941",
       "deadline": "2026-07-20",
       "posted_at": null
     },
@@ -10649,6 +8807,24 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54228488",
+      "title": "Flutter 앱개발자",
+      "company": "테일크루",
+      "region": "경기 성남시 분당구",
+      "career": "3~10년",
+      "employment": "정규직",
+      "keywords": [
+        "css 3",
+        "flutter",
+        "javascript",
+        "react native",
+        "typescript"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54228488",
+      "deadline": "2026-07-20",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54218594",
       "title": "ERP 개발자(Delphi, ASP) 채용",
       "company": "디아이",
@@ -10689,29 +8865,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54225912",
-      "title": "파이썬 개발자 구인(13~15년)",
-      "company": "바능",
-      "region": "경기 성남시 분당구",
-      "career": "13~15년",
-      "employment": "정규직",
-      "keywords": [
-        "bitbucket",
-        "django",
-        "git",
-        "gitlab",
-        "kubernetes",
-        "postgresql",
-        "python",
-        "react",
-        "typescript",
-        "airflow"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54225912",
-      "deadline": "2026-07-19",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54225898",
       "title": "파이썬 개발자 구인(10~12년)",
       "company": "바능",
@@ -10731,6 +8884,29 @@
         "airflow"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54225898",
+      "deadline": "2026-07-19",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54225912",
+      "title": "파이썬 개발자 구인(13~15년)",
+      "company": "바능",
+      "region": "경기 성남시 분당구",
+      "career": "13~15년",
+      "employment": "정규직",
+      "keywords": [
+        "bitbucket",
+        "django",
+        "git",
+        "gitlab",
+        "kubernetes",
+        "postgresql",
+        "python",
+        "react",
+        "typescript",
+        "airflow"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54225912",
       "deadline": "2026-07-19",
       "posted_at": null
     },
@@ -10758,29 +8934,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54213008",
-      "title": "[인턴] 프롭테크 플랫폼 서비스 개발",
-      "company": "지니수",
-      "region": "서울 강남구",
-      "career": "신입",
-      "employment": "정규직",
-      "keywords": [
-        "figma",
-        "github",
-        "next.js",
-        "typescript",
-        "zustand",
-        "notion",
-        "tailwind css",
-        "linear",
-        "supabase",
-        "react hook form"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54213008",
-      "deadline": "2026-07-19",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54225882",
       "title": "파이썬 개발자 구인(6~9년)",
       "company": "바능",
@@ -10800,6 +8953,29 @@
         "airflow"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54225882",
+      "deadline": "2026-07-19",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54213008",
+      "title": "[인턴] 프롭테크 플랫폼 서비스 개발",
+      "company": "지니수",
+      "region": "서울 강남구",
+      "career": "신입",
+      "employment": "정규직",
+      "keywords": [
+        "figma",
+        "github",
+        "next.js",
+        "typescript",
+        "zustand",
+        "notion",
+        "tailwind css",
+        "linear",
+        "supabase",
+        "react hook form"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54213008",
       "deadline": "2026-07-19",
       "posted_at": null
     },
@@ -11252,29 +9428,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54146921",
-      "title": "머신러닝 엔지니어 채용",
-      "company": "스트라티오코리아",
-      "region": "경기 성남시",
-      "career": "2~20년",
-      "employment": "정규직",
-      "keywords": [
-        "numpy",
-        "pandas",
-        "python",
-        "pytorch",
-        "scikit-learn",
-        "tensorflow",
-        "opencv",
-        "aws",
-        "gcp",
-        "azure"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54146921",
-      "deadline": "2026-07-18",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54212501",
       "title": "[AI CX사업부문] 데이터 엔지니어",
       "company": "플래티어",
@@ -11294,6 +9447,29 @@
         "amazon quicksight"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54212501",
+      "deadline": "2026-07-18",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54146921",
+      "title": "머신러닝 엔지니어 채용",
+      "company": "스트라티오코리아",
+      "region": "경기 성남시",
+      "career": "2~20년",
+      "employment": "정규직",
+      "keywords": [
+        "numpy",
+        "pandas",
+        "python",
+        "pytorch",
+        "scikit-learn",
+        "tensorflow",
+        "opencv",
+        "aws",
+        "gcp",
+        "azure"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54146921",
       "deadline": "2026-07-18",
       "posted_at": null
     },
@@ -11561,6 +9737,25 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54207260",
+      "title": "웹 서비스 개발자",
+      "company": "오픈소스컨설팅",
+      "region": "서울 강남구",
+      "career": "5~13년",
+      "employment": "정규직",
+      "keywords": [
+        "git",
+        "java",
+        "kubernetes",
+        "python",
+        "react",
+        "openstack"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54207260",
+      "deadline": "2026-07-17",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54207333",
       "title": "WorkManagement사업부문 솔루션 개발",
       "company": "오픈소스컨설팅",
@@ -11579,25 +9774,6 @@
         "openstack"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54207333",
-      "deadline": "2026-07-17",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54207260",
-      "title": "웹 서비스 개발자",
-      "company": "오픈소스컨설팅",
-      "region": "서울 강남구",
-      "career": "5~13년",
-      "employment": "정규직",
-      "keywords": [
-        "git",
-        "java",
-        "kubernetes",
-        "python",
-        "react",
-        "openstack"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54207260",
       "deadline": "2026-07-17",
       "posted_at": null
     },
@@ -12168,6 +10344,24 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54186258",
+      "title": "AMS 사업본부 FAE(신입)",
+      "company": "유진로봇",
+      "region": "인천 연수구",
+      "career": "신입",
+      "employment": "정규직",
+      "keywords": [
+        "linux",
+        "hw",
+        "sw",
+        "network",
+        "plc"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54186258",
+      "deadline": "2026-07-16",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54187837",
       "title": "JavaScript 프론드엔드 개발자 채용",
       "company": "서울거래",
@@ -12186,24 +10380,6 @@
         "aws"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54187837",
-      "deadline": "2026-07-16",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54186258",
-      "title": "AMS 사업본부 FAE(신입)",
-      "company": "유진로봇",
-      "region": "인천 연수구",
-      "career": "신입",
-      "employment": "정규직",
-      "keywords": [
-        "linux",
-        "hw",
-        "sw",
-        "network",
-        "plc"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54186258",
       "deadline": "2026-07-16",
       "posted_at": null
     },
@@ -12571,6 +10747,25 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54172916",
+      "title": "Energy AI Team/FullStack AI Engineer",
+      "company": "브이젠",
+      "region": "서울 마포구",
+      "career": "3~10년",
+      "employment": "정규직",
+      "keywords": [
+        "amazon sagemaker",
+        "firebase",
+        "next.js",
+        "react",
+        "ai/인공지능",
+        "supabase"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54172916",
+      "deadline": "2026-07-15",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54111217",
       "title": ".NET 풀스택 개발자 채용",
       "company": "필라넷",
@@ -12590,25 +10785,6 @@
         "azure"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54111217",
-      "deadline": "2026-07-15",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54172916",
-      "title": "Energy AI Team/FullStack AI Engineer",
-      "company": "브이젠",
-      "region": "서울 마포구",
-      "career": "3~10년",
-      "employment": "정규직",
-      "keywords": [
-        "amazon sagemaker",
-        "firebase",
-        "next.js",
-        "react",
-        "ai/인공지능",
-        "supabase"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54172916",
       "deadline": "2026-07-15",
       "posted_at": null
     },
@@ -13620,29 +11796,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54135485",
-      "title": "개발팀 테크 리더 5년이상 채용",
-      "company": "아이티무유",
-      "region": "충북 청주시 흥덕구",
-      "career": "5~10년",
-      "employment": "정규직",
-      "keywords": [
-        "java",
-        "mysql",
-        "mysql workbench",
-        "python",
-        "three.js",
-        "webgl",
-        "rest api",
-        "tcp/ip",
-        "3d rendering",
-        "geoserver"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54135485",
-      "deadline": "2026-07-11",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54135476",
       "title": "개발팀 시니어 4년 이상",
       "company": "아이티무유",
@@ -13666,6 +11819,29 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54135485",
+      "title": "개발팀 테크 리더 5년이상 채용",
+      "company": "아이티무유",
+      "region": "충북 청주시 흥덕구",
+      "career": "5~10년",
+      "employment": "정규직",
+      "keywords": [
+        "java",
+        "mysql",
+        "mysql workbench",
+        "python",
+        "three.js",
+        "webgl",
+        "rest api",
+        "tcp/ip",
+        "3d rendering",
+        "geoserver"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54135485",
+      "deadline": "2026-07-11",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54135806",
       "title": "S/W 소프트웨어 설계(경력)",
       "company": "씨앤지 마이크로웨이브",
@@ -13679,6 +11855,40 @@
         "arm"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54135806",
+      "deadline": "2026-07-11",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54149999",
+      "title": "Data Scientist in Financial (7~10년)",
+      "company": "페니로이스",
+      "region": "서울 종로구",
+      "career": "7~10년",
+      "employment": "정규직",
+      "keywords": [
+        "python",
+        "r",
+        "machinelearning",
+        "bigdata"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54149999",
+      "deadline": "2026-07-11",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54149992",
+      "title": "Data Scientist in Financial (4~6년)",
+      "company": "페니로이스",
+      "region": "서울 종로구",
+      "career": "4~6년",
+      "employment": "정규직",
+      "keywords": [
+        "python",
+        "r",
+        "machinelearning",
+        "bigdata"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54149992",
       "deadline": "2026-07-11",
       "posted_at": null
     },
@@ -13702,40 +11912,6 @@
         "corona sdk"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54146994",
-      "deadline": "2026-07-11",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54149992",
-      "title": "Data Scientist in Financial (4~6년)",
-      "company": "페니로이스",
-      "region": "서울 종로구",
-      "career": "4~6년",
-      "employment": "정규직",
-      "keywords": [
-        "python",
-        "r",
-        "machinelearning",
-        "bigdata"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54149992",
-      "deadline": "2026-07-11",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54149999",
-      "title": "Data Scientist in Financial (7~10년)",
-      "company": "페니로이스",
-      "region": "서울 종로구",
-      "career": "7~10년",
-      "employment": "정규직",
-      "keywords": [
-        "python",
-        "r",
-        "machinelearning",
-        "bigdata"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54149999",
       "deadline": "2026-07-11",
       "posted_at": null
     },
@@ -14092,6 +12268,24 @@
       "posted_at": null
     },
     {
+      "id": "jumpit-54131538",
+      "title": "반도체 회로 설계 개발자 (경력)",
+      "company": "블루닷",
+      "region": "서울 강남구",
+      "career": "3~12년",
+      "employment": "정규직",
+      "keywords": [
+        "git",
+        "github",
+        "python",
+        "spring framework",
+        "aws"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54131538",
+      "deadline": "2026-07-10",
+      "posted_at": null
+    },
+    {
       "id": "jumpit-54132664",
       "title": "연구개발본부 SW1팀 경력사원 채용",
       "company": "피닉슨컨트롤스",
@@ -14115,20 +12309,19 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54131538",
-      "title": "반도체 회로 설계 개발자 (경력)",
-      "company": "블루닷",
-      "region": "서울 강남구",
-      "career": "3~12년",
+      "id": "jumpit-54061904",
+      "title": "시스템 사업부 엔지니어 신입",
+      "company": "이비즈테크",
+      "region": "서울 마포구",
+      "career": "신입",
       "employment": "정규직",
       "keywords": [
-        "git",
-        "github",
-        "python",
-        "spring framework",
-        "aws"
+        "linux",
+        "windows",
+        "azure",
+        "vmware"
       ],
-      "url": "https://jumpit.saramin.co.kr/position/54131538",
+      "url": "https://jumpit.saramin.co.kr/position/54061904",
       "deadline": "2026-07-10",
       "posted_at": null
     },
@@ -14147,23 +12340,6 @@
         "aws"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54131498",
-      "deadline": "2026-07-10",
-      "posted_at": null
-    },
-    {
-      "id": "jumpit-54061904",
-      "title": "시스템 사업부 엔지니어 신입",
-      "company": "이비즈테크",
-      "region": "서울 마포구",
-      "career": "신입",
-      "employment": "정규직",
-      "keywords": [
-        "linux",
-        "windows",
-        "azure",
-        "vmware"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54061904",
       "deadline": "2026-07-10",
       "posted_at": null
     },
@@ -14584,20 +12760,6 @@
       "posted_at": null
     },
     {
-      "id": "jumpit-54125054",
-      "title": "Phased Array Antenna Design 채용",
-      "company": "인텔리안테크놀로지스",
-      "region": "경기 평택시",
-      "career": "3~8년",
-      "employment": "정규직",
-      "keywords": [
-        "hw"
-      ],
-      "url": "https://jumpit.saramin.co.kr/position/54125054",
-      "deadline": "2026-07-09",
-      "posted_at": null
-    },
-    {
       "id": "jumpit-54124979",
       "title": "안테나측청 담당자 (평택연구소)",
       "company": "인텔리안테크놀로지스",
@@ -14610,6 +12772,20 @@
         "spectrum"
       ],
       "url": "https://jumpit.saramin.co.kr/position/54124979",
+      "deadline": "2026-07-09",
+      "posted_at": null
+    },
+    {
+      "id": "jumpit-54125054",
+      "title": "Phased Array Antenna Design 채용",
+      "company": "인텔리안테크놀로지스",
+      "region": "경기 평택시",
+      "career": "3~8년",
+      "employment": "정규직",
+      "keywords": [
+        "hw"
+      ],
+      "url": "https://jumpit.saramin.co.kr/position/54125054",
       "deadline": "2026-07-09",
       "posted_at": null
     },
