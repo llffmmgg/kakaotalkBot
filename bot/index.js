@@ -50,5 +50,9 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
     return;
   }
   var jobs = format.filterByCareer(data.jobs, mode);
-  replier.reply(format.formatList(jobs, config.LIST_LIMIT, title) + format.HINT);
+  // 최대 LIST_MAX개까지 PAGE_SIZE개씩 나눠 여러 메시지로 전송.
+  var pages = format.formatListPaged(jobs, config.LIST_MAX, config.PAGE_SIZE, title, format.HINT);
+  for (var i = 0; i < pages.length; i++) {
+    replier.reply(pages[i]);
+  }
 }

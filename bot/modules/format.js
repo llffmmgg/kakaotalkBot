@@ -65,6 +65,32 @@ function formatList(items, limit, title) {
   return head + " " + total + "건\n\n" + joinJobs(shown) + note;
 }
 
+// 목록을 여러 메시지(페이지)로 나눠 문자열 배열로 반환한다.
+// maxTotal개까지만, pageSize개씩 쪼갠다. 마지막 페이지에 잔여 안내 + hint를 붙인다.
+function formatListPaged(items, maxTotal, pageSize, title, hint) {
+  var head = title || "📋 채용공고";
+  if (!items || items.length === 0) {
+    return [head + "가 아직 없어요."];
+  }
+  var total = items.length;
+  var shown = items.slice(0, maxTotal);
+  var pageCount = Math.ceil(shown.length / pageSize);
+  var pages = [];
+  for (var p = 0; p < pageCount; p++) {
+    var slice = shown.slice(p * pageSize, (p + 1) * pageSize);
+    var header = head + " " + total + "건" + (pageCount > 1 ? " (" + (p + 1) + "/" + pageCount + ")" : "");
+    var body = header + "\n\n" + joinJobs(slice);
+    if (p === pageCount - 1) {
+      if (total > shown.length) {
+        body += "\n\n…외 " + (total - shown.length) + "건 더 있어요. (상위 " + shown.length + "건만 표시)";
+      }
+      if (hint) { body += hint; }
+    }
+    pages.push(body);
+  }
+  return pages;
+}
+
 function formatNew(items) {
   return "🆕 새 채용공고 " + items.length + "건\n\n" + joinJobs(items);
 }
@@ -92,6 +118,7 @@ function helpText() {
 module.exports = {
   formatJob: formatJob,
   formatList: formatList,
+  formatListPaged: formatListPaged,
   formatNew: formatNew,
   formatLoadError: formatLoadError,
   filterByCareer: filterByCareer,

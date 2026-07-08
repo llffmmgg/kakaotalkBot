@@ -20,7 +20,8 @@ var CONFIG = {
   POLL_MS: 10 * 60 * 1000, // 자동 푸시 확인 주기 (10분마다 '지금 보낼 시간인지' 검사)
   PUSH_HOURS: [9, 18],     // 자동 푸시 시각(폰 시간, 24시간). 하루 2번: 오전 9시·오후 6시
   MAX_PUSH: 10,            // 한 번에 자동 푸시할 최대 신규 공고 수
-  LIST_LIMIT: 15,          // "!채용" 응답에 보여줄 최대 공고 수(전체 건수는 함께 표시)
+  LIST_MAX: 30,            // "!채용" 응답에 보여줄 최대 공고 수(전체 건수는 함께 표시)
+  PAGE_SIZE: 15,           // 메시지 한 개당 공고 수 → 30개면 15개씩 메시지 2개로 나눠 전송
   CMD_PREFIX: "!채용"
 };
 
@@ -113,6 +114,31 @@ function formatList(items, limit, title) {
     note = "\n\n…외 " + (total - limit) + "건 더 있어요. (최신 " + limit + "건만 표시)";
   }
   return head + " " + total + "건\n\n" + joinJobs(shown) + note;
+}
+
+// 목록을 여러 메시지(페이지)로 나눠 문자열 배열로 반환한다.
+function formatListPaged(items, maxTotal, pageSize, title, hint) {
+  var head = title || "📋 채용공고";
+  if (!items || items.length === 0) {
+    return [head + "가 아직 없어요."];
+  }
+  var total = items.length;
+  var shown = items.slice(0, maxTotal);
+  var pageCount = Math.ceil(shown.length / pageSize);
+  var pages = [];
+  for (var p = 0; p < pageCount; p++) {
+    var slice = shown.slice(p * pageSize, (p + 1) * pageSize);
+    var header = head + " " + total + "건" + (pageCount > 1 ? " (" + (p + 1) + "/" + pageCount + ")" : "");
+    var body = header + "\n\n" + joinJobs(slice);
+    if (p === pageCount - 1) {
+      if (total > shown.length) {
+        body += "\n\n…외 " + (total - shown.length) + "건 더 있어요. (상위 " + shown.length + "건만 표시)";
+      }
+      if (hint) { body += hint; }
+    }
+    pages.push(body);
+  }
+  return pages;
 }
 
 function formatNew(items) {
@@ -263,7 +289,11 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
     return;
   }
   var jobs = filterByCareer(data.jobs, mode);
-  replier.reply(formatList(jobs, CONFIG.LIST_LIMIT, title) + HINT);
+  // 최대 LIST_MAX개까지 PAGE_SIZE개씩 나눠 여러 메시지로 전송.
+  var pages = formatListPaged(jobs, CONFIG.LIST_MAX, CONFIG.PAGE_SIZE, title, HINT);
+  for (var i = 0; i < pages.length; i++) {
+    replier.reply(pages[i]);
+  }
 }
 
 // 자동 푸시 타이머 등록 (앱이 켜져 있는 동안만 동작).
