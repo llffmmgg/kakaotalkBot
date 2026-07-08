@@ -73,10 +73,28 @@ function formatLoadError() {
   return "공고 데이터를 불러오지 못했어요. 잠시 후 다시 시도해주세요.";
 }
 
+// 목록 하단에 붙일 사용법 힌트(신입/경력 필터 발견용).
+var HINT = "\n\n💡 !채용 신입 · !채용 경력 · !채용 도움말";
+
+function helpText() {
+  return [
+    "🤖 개발자 채용공고 봇",
+    "",
+    "• !채용 — 인기 공고",
+    "• !채용 신입 — 신입 공고만",
+    "• !채용 경력 — 경력 공고만",
+    "",
+    "매일 오전 9시·오후 6시에 새 공고를 자동으로 알려드려요.",
+    "출처: 점핏(jumpit)"
+  ].join("\n");
+}
+
 module.exports = {
   formatJob: formatJob,
   formatList: formatList,
   formatNew: formatNew,
   formatLoadError: formatLoadError,
-  filterByCareer: filterByCareer
+  filterByCareer: filterByCareer,
+  helpText: helpText,
+  HINT: HINT
 };

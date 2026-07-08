@@ -119,6 +119,22 @@ function formatNew(items) {
   return "🆕 새 채용공고 " + items.length + "건\n\n" + joinJobs(items);
 }
 
+// 목록 하단에 붙일 사용법 힌트.
+var HINT = "\n\n💡 !채용 신입 · !채용 경력 · !채용 도움말";
+
+function helpText() {
+  return [
+    "🤖 개발자 채용공고 봇",
+    "",
+    "• !채용 — 인기 공고",
+    "• !채용 신입 — 신입 공고만",
+    "• !채용 경력 — 경력 공고만",
+    "",
+    "매일 오전 9시·오후 6시에 새 공고를 자동으로 알려드려요.",
+    "출처: 점핏(jumpit)"
+  ].join("\n");
+}
+
 // ---------------------- push (자동 알림, 하루 2번) ----------------------
 var DB_KEY = "pushedIds";      // 이미 푸시한 공고 id 집합
 var SLOT_KEY = "lastPushSlot"; // 마지막으로 푸시를 완료한 시간대(중복 방지)
@@ -225,10 +241,16 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
     return;
   }
 
-  // "!채용" 뒤 인자로 신입/경력 필터. 예: "!채용 신입", "!채용경력".
+  // "!채용" 뒤 인자로 동작 분기. 예: "!채용 신입", "!채용경력", "!채용 도움말".
   var arg = text.substring(CONFIG.CMD_PREFIX.length);
+
+  if (arg.indexOf("도움말") >= 0 || arg.indexOf("사용법") >= 0) {
+    replier.reply(helpText());
+    return;
+  }
+
   var mode = "";
-  var title = "📋 채용공고";
+  var title = "📋 인기 채용공고";
   if (arg.indexOf("신입") >= 0) {
     mode = "신입"; title = "🌱 신입 채용공고";
   } else if (arg.indexOf("경력") >= 0) {
@@ -241,7 +263,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
     return;
   }
   var jobs = filterByCareer(data.jobs, mode);
-  replier.reply(formatList(jobs, CONFIG.LIST_LIMIT, title));
+  replier.reply(formatList(jobs, CONFIG.LIST_LIMIT, title) + HINT);
 }
 
 // 자동 푸시 타이머 등록 (앱이 켜져 있는 동안만 동작).
